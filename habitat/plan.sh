@@ -1,10 +1,10 @@
 # shellcheck shell=bash
 
 pkg_origin=biome
-pkg_name=bio-plugin-secret
+pkg_name=bio-plugin-wrapper
 pkg_version=0.1.0
-pkg_description="The Biome Plugin Secret"
-pkg_upstream_url="https://github.com/biome-sh/bio-plugin-secret"
+pkg_description="The Biome Plugin Wrapper"
+pkg_upstream_url="https://github.com/biome-sh/bio-plugin-wrapper"
 
 pkg_maintainer="Yauhen Artsiukhou <jsirex@gmail.com>"
 pkg_license=("MIT")
