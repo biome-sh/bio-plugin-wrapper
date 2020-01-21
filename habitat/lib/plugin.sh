@@ -2,7 +2,6 @@
 
 # Bio Plugin Wrapper
 # Wraps a package
-# Example: `do_secret_copy netrc ~/.netrc`
 #
 # Variables:
 # `pkg_wrapper_for` - original package ident to wrap
