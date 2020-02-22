@@ -2,7 +2,7 @@
 
 pkg_origin=biome
 pkg_name=bio-plugin-wrapper
-pkg_version=0.1.0
+pkg_version=0.2.0
 pkg_description="The Biome Plugin Wrapper"
 pkg_upstream_url="https://github.com/biome-sh/bio-plugin-wrapper"
 

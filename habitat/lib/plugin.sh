@@ -81,11 +81,11 @@ do_wrapper_build_config() {
         cp "$wrapper_path/EXPOSES" "$pkg_prefix"
     fi
 
-    if [[ -z "${pkg_shutdown_signal:-}" ]] && [[ -f "$wrapper_path/SHUTDOWN_SIGNAL"]]; then
+    if [[ -z "${pkg_shutdown_signal:-}" ]] && [[ -f "$wrapper_path/SHUTDOWN_SIGNAL" ]]; then
         cp "$wrapper_path/SHUTDOWN_SIGNAL" "$pkg_prefix"
     fi
 
-    if [[ -z "${pkg_shutdown_timeout_sec:-}" ]] && [[ -f "$wrapper_path/SHUTDOWN_TIMEOUT"]]; then
+    if [[ -z "${pkg_shutdown_timeout_sec:-}" ]] && [[ -f "$wrapper_path/SHUTDOWN_TIMEOUT" ]]; then
         cp "$wrapper_path/SHUTDOWN_TIMEOUT" "$pkg_prefix"
     fi
 }
