@@ -72,6 +72,11 @@ do_wrapper_build_config() {
     fi
 
     # shellcheck disable=SC2154
+    if [[ ${#pkg_binds_optional[@]} -eq 0 ]] && [[ -f "$wrapper_path/BINDS_OPTIONAL" ]]; then
+        cp "$wrapper_path/BINDS_OPTIONAL" "$pkg_prefix"
+    fi
+
+    # shellcheck disable=SC2154
     if [[ ${#pkg_exports[@]} -eq 0 ]] && [[ -f "$wrapper_path/EXPORTS" ]]; then
         cp "$wrapper_path/EXPORTS" "$pkg_prefix"
     fi
